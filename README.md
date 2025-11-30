@@ -1,3 +1,5 @@
+> **Desenvolvido por:** [@dr.andreq - Médico Programador 🩺👨🏼‍💻](https://instagram.com/dr.andreq)
+
 # 📄 Otimizador de PDF Pro
 
 Uma ferramenta web desenvolvida em Python e Streamlit para comprimir, otimizar e unificar arquivos PDF, focada em documentos escaneados.

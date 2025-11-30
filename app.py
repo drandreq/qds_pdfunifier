@@ -52,6 +52,10 @@ def render_tool():
   st.info(f"🛡️ Segurança: O limite máximo por arquivo é de {MAX_FILE_SIZE_MB}MB.")
 
   with st.sidebar:
+    st.markdown("### Criado por:")
+    st.markdown("🩺👨🏼‍💻 **[@dr.andreq - Médico Programador](https://instagram.com/dr.andreq)**")
+    st.divider()
+
     st.header("⚙️ Configurações")
     jpg_quality = st.slider("Qualidade JPEG", 10, 100, 65, help="Menor = Mais leve.")
     target_dpi = st.slider("DPI Alvo", 72, 300, 120, help="120 é ótimo para leitura.")
@@ -59,6 +63,7 @@ def render_tool():
     if st.button("🔒 Bloquear"):
       st.session_state.authenticated = False
       st.rerun()
+    
 
   st.subheader("1. Seleção de Arquivos")
   
